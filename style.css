@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+body{
+  font-family:Orbitron;
+}
+.container{
+  text-align:center;
+}
+.calculator-box{
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10%;
+  width:300px;
+  background-color:#EFEBE9;
+  border:2px solid #EDE7F6;
+  border-radius:20px;
+  box-shadow:-1px 3px 7px rgba(0,0,0,0.8);
+}
+
+.calculator-box h2{
+  font-family: Orbitron;
+  font-size:25px;
+  font-weight:600;
+  color:#5D4037;
+  margin:10px;
+}
+.input-box{
+  border-radius:5px;
+  border:none;
+  background-color:#c3c2ab;
+  width:260px;
+  height:50px;
+  border: 2px solid #b4b39d;
+  font-size:25px;
+  padding:2px;
+}
+.row{
+  margin:20px;
+}
+button{
+  width:40px;
+  height:30px;
+  background-color:#424242;
+  border:none;
+  border-radius:5px;
+  color:white;
+  box-shadow:2px 4px 4px rgba(10,10,10,.6)
+}
+.zero button{
+  width:100%;
+}
+.equal button{
+  height:80px;
+  position:absolute;
+  left:14px;
+  top:-50px;
+}
